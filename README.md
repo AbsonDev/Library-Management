@@ -1,69 +1,80 @@
-# Biblioteca App
+# Library Management App
 
-Um aplicativo de gerenciamento de biblioteca construído com Angular e Firebase.
+A library management application built with Angular and Firebase.
 
-## Configuração do Ambiente
+## Environment Setup
 
-1. Clone o repositório
+1. Clone the repository
 ```bash
 git clone https://github.com/seu-usuario/biblioteca-app.git
 cd biblioteca-app
 ```
 
-2. Instale as dependências
+2. Install dependencies
 ```bash
 npm install
 ```
 
-3. Configure as variáveis de ambiente
-   - Copie o arquivo `.env.example` para `.env`
+3. Configure environment variables
+   - Copy the `.env.example` file to `.env`
    ```bash
    cp .env.example .env
    ```
-   - Edite o arquivo `.env` e adicione suas credenciais do Firebase
+   - Edit the `.env` file and add your Firebase credentials
 
-4. Inicie o servidor de desenvolvimento
+4. Start the development server
 ```bash
 ng serve
 ```
 
-## Configuração do Firebase
+## Firebase Configuration
 
-1. Crie um projeto no [Firebase Console](https://console.firebase.google.com)
-2. Habilite o Firestore Database
-3. Obtenha as credenciais do seu projeto em Project Settings > General
-4. Adicione as credenciais ao arquivo `.env`
+1. Create a project in [Firebase Console](https://console.firebase.google.com)
+2. Enable Firestore Database
+3. Get your project credentials from Project Settings > General
+4. Add the credentials to the `.env` file
 
-## Estrutura do Projeto
+## Project Structure
 
-- `src/app/components/` - Componentes da aplicação
-- `src/app/services/` - Serviços e lógica de negócios
-- `src/app/models/` - Interfaces e tipos
-- `src/app/app.config.ts` - Configuração do Firebase
+- `src/app/components/` - Application components
+- `src/app/services/` - Services and business logic
+- `src/app/models/` - Interfaces and types
+- `src/app/app.config.ts` - Firebase configuration
 
-## Funcionalidades
+## Features
 
-- Adicionar novos livros
-- Editar livros existentes
-- Excluir livros
-- Visualizar lista de livros
-- Gerenciar disponibilidade dos livros
+- Add new books
+- Edit existing books
+- Delete books
+- View book list
+- Manage book availability
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- Angular 17
+- Angular 19
 - Firebase/Firestore
 - Bootstrap 5
 - TypeScript
+- Bootstrap Icons
+- ngx-toastr for notifications
 
-## Contribuição
+## Development
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
+The project uses the following main dependencies:
+- @angular/fire: ^19.1.0
+- firebase: ^11.7.3
+- bootstrap: ^5.3.2
+- bootstrap-icons: ^1.11.3
+- ngx-toastr: ^18.0.0
 
-## Licença
+## Contributing
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
