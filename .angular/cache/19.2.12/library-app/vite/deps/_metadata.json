@@ -1,0 +1,73 @@
+{
+  "hash": "057b2c78",
+  "configHash": "4cbdf9b9",
+  "lockfileHash": "d0be9351",
+  "browserHash": "2c0ffa62",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "c5865b13",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "7ecd555e",
+      "needsInterop": false
+    },
+    "@angular/fire/app": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-app.mjs",
+      "file": "@angular_fire_app.js",
+      "fileHash": "ed56f4e8",
+      "needsInterop": false
+    },
+    "@angular/fire/firestore": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-firestore.mjs",
+      "file": "@angular_fire_firestore.js",
+      "fileHash": "895cfad4",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "7a373db9",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "ca71c793",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "b62316ca",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "2e966bfa",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AJXPQMOS": {
+      "file": "chunk-AJXPQMOS.js"
+    },
+    "chunk-6N3LFIPK": {
+      "file": "chunk-6N3LFIPK.js"
+    },
+    "chunk-5Z73GMSN": {
+      "file": "chunk-5Z73GMSN.js"
+    },
+    "chunk-TYA2RMXJ": {
+      "file": "chunk-TYA2RMXJ.js"
+    },
+    "chunk-GFEWMZOR": {
+      "file": "chunk-GFEWMZOR.js"
+    }
+  }
+}
